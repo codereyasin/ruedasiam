@@ -1,0 +1,223 @@
+/* tablet screen 767*/
+@media(max-width: 1200px) {
+    .gallery_img img {
+        width: 317px;
+        height: 269px;
+        object-fit: cover;
+    }
+
+    .sub_img_crad_lp {
+        display: none;
+    }
+}
+
+@media(max-width: 992px) {
+    .gallery_img img {
+        width: 236px;
+        height: 201px;
+        object-fit: cover;
+    }
+}
+
+@media(max-width: 767px) {
+    header {
+        padding-top: 0px !important;
+        justify-content: end;
+
+    }
+
+    .nav_bar {
+        background: lavender;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 43px;
+        height: 100vh;
+        align-items: center;
+        text-align: center;
+        visibility: hidden;
+        opacity: 0;
+        transform: translateX(100);
+        -webkit-transform: translateX(100);
+        -moz-transform: translateX(100);
+        -ms-transform: translateX(100);
+        -o-transform: translateX(100);
+        transition: all 0.3s linear;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        -ms-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 18px 51px;
+        font-size: 15px;
+    }
+
+    nav ul li:first-child {
+        padding-top: 119px;
+    }
+
+    .btn_transparent {
+        color: var(--primary);
+        background: transparent;
+        padding: 10px 13px;
+        border-radius: 5px;
+        border: 2px solid var(--primary);
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+        font-size: 12px;
+    }
+
+    .mobile_nav_btn {
+        right: 18px;
+        justify-content: end;
+        display: flex;
+        top: 16px;
+        position: absolute;
+    }
+
+    .mobile_nav_btn a {
+        color: #1edaffe6 !important;
+        z-index: 999;
+        font-size: 32px;
+    }
+
+    .active {
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        pointer-events: auto;
+    }
+
+    .hero_item h1 {
+        color: white;
+        font-size: 35px;
+        line-height: 30px;
+        padding-bottom: 8px;
+        font-weight: 400;
+        line-height: 40px;
+    }
+
+    .hero_item p {
+        color: var(--primary);
+        padding-bottom: 9px;
+    }
+
+    .section_s_title {
+        font-size: 48px;
+    }
+
+    .section_title {
+        font-size: 38px;
+    }
+
+    section {
+        padding: 19px 0;
+    }
+
+    .menu img {
+        height: 109px;
+        width: 109px;
+        padding-right: 8px;
+        margin-right: 0px;
+        padding-bottom: 8px;
+    }
+
+    .menu p {
+        width: 88%;
+        font-size: 14px;
+    }
+
+    nav a img {
+        width: 86px;
+        height: 57px;
+    }
+
+    .booking_title {
+        font-size: 32px;
+    }
+
+    .booking {
+        height: 334px;
+    }
+
+    .section_title_g {
+        font-size: 40px;
+        padding-bottom: 0px;
+    }
+
+    .img-crad-mobile {
+        display: none;
+    }
+
+    .gallery_img img {
+        width: 132px;
+        height: 122px;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: -6px;
+        margin-left: 77px;
+    }
+
+    .image_lightbox {
+        width: 10px;
+        height: 10px;
+    }
+
+    .image_lightbox img {
+        width: 10px;
+    }
+    .footer {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    
+}
+
+@media(max-width: 576px) {
+    .gallery_img img {
+        margin-left: 40px;
+    }
+    .footer {
+        padding-top: 7px;
+        padding-bottom: 5px;
+    }
+        
+}
+
+@media(max-width: 375px) {
+    .gallery_img img {
+        margin-left: 24px;
+        width: 91px;
+        height: 95px;
+        object-fit: cover;
+    }
+
+    .newstext {
+        font-size: 12px;
+    }
+    .header_tel {
+        font-size: 18px;
+    }
+    .ninput-input {
+        width: 132px;
+        height: 28px;
+    }
+    .header_tel {
+        font-size: 13px;
+    }
+    .stay p {
+        color: #b6aaaa;
+        font-size: 6px;
+    }
+}
